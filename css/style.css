@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* para entender ver http://sergiolopes.org/css-box-sizing-border-box/*/
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image: url("../images/Luxury-Watches.jpg");
+    opacity: 0.95;
+    background-size: cover;
+    background-position: 50% 0px;
+    height: 100vh;
+}
+
+.header {
+    background-color: #293036b0;
+    /* color: #fff */
+}
+
+.logo {
+    font-family: poppins,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.801)
+}
+
+.link {
+    border-left: 1px solid;
+}
+
+a.text-secondary:hover {
+    color: rgba(255, 255, 255, 0.774)!important;
+}
